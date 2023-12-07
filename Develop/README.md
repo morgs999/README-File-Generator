@@ -5,10 +5,10 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing-guidelines)
+  * [Contributing](#contribution-guidelines)
   * [Testing](#test-instructions)
   * [License](#license)
-  * [Contact](#contact)
+  * [Contact](#contact-for-questions)
 
   ## Description
   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -16,20 +16,20 @@
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-
+Descripted.
 
 
   ## Installation
-  Installation is available from the live page provided.
+  You can visit the repo for installation instructions.
 
   ## Usage
-  Usage is dependent upon the user.
+  You use it by using it. Just kidding, you follow these prompts and input your information.
 
   ## Contribution Guidelines
   You can contribute by forking the original repository.
 
   ## Test Instructions
-  By simply using it.
+  Simply by trying wacky things with it and seeing what works.
 
   ## License
   [![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)] (https://firstdonoharm.dev)

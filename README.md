@@ -11,12 +11,12 @@ To install
  - Run the 'index.js' file in Node.js.
 
 ## Usage
-View the following [video](googledrivelink) to see the README File Generator in use.
+View the following [video](https://drive.google.com/file/d/1ZA4vdCGHBe3vSQ2m-y0PFnXdMqQ_wWu9/view?usp=sharing) to see the README File Generator in use.
  
 
 
 #### Credits
-[Inquirer Node Package](www.npmjs.com/package/inquirer)\
+[Inquirer Node Package](https://www.npmjs.com/package/inquirer)\
 Starter Code provided by University of Toronto Coding Boot Camp
 
 #### License
