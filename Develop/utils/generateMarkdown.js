@@ -1,9 +1,11 @@
-
+// Available Licenses, with Badges and Links
 // [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 // [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 // [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 // [![License: Hippocratic 3.0](https://img.shields.io/badge/License-Hippocratic_3.0-lightgrey.svg)](https://firstdonoharm.dev)
 
+
+// Matches License and Renders Badge
 function renderLicenseBadge(license) {
   if (license == 'MIT') {
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
@@ -18,6 +20,7 @@ function renderLicenseBadge(license) {
   }
 }
 
+// Matches License and Renders Link to said License
 function renderLicenseLink(license) {
   if (license == 'MIT') {
     return '(https://opensource.org/licenses/MIT)';
@@ -32,6 +35,7 @@ function renderLicenseLink(license) {
   }
 }
 
+// Combines License Badge and Link into Template Literal
 function renderLicenseSection(license) {
   if (license == []) {
     return '';
@@ -40,7 +44,7 @@ function renderLicenseSection(license) {
   }
 }
 
-
+// Generates all text and links for README.md
 function generateMarkdown(answers) {
   let licenseGen = renderLicenseSection(answers.license);
   return `
@@ -75,4 +79,5 @@ function generateMarkdown(answers) {
 `
 }
 
+// Export for index.js
 module.exports = generateMarkdown;

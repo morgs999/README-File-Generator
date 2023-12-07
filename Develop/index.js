@@ -1,8 +1,9 @@
+// Required Imports
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-
+// List of Questions to generate README from
 const questions = [
     {
         type: 'input',
@@ -52,7 +53,7 @@ const questions = [
     }
 ]
 
-
+// Function to write new README.md file
 function writeToFile(fileName, answers) {
     fs.writeFile(fileName, answers, (err) => {
         err ? console.log(err) :
@@ -60,6 +61,7 @@ function writeToFile(fileName, answers) {
     })
 }
 
+// Prompts User, Generates README, Writes README 
 function init() {
     inquirer.prompt(questions).then(answers => {
         const ReadMe = generateMarkdown(answers);
@@ -67,4 +69,5 @@ function init() {
     })
 }
 
+// Run program
 init();
