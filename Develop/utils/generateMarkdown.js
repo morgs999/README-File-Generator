@@ -54,10 +54,10 @@ function generateMarkdown(answers) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing-guidelines)
+  * [Contributing](#contribution-guidelines)
   * [Testing](#test-instructions)
   * [License](#license)
-  * [Contact](#contact)
+  * [Contact](#contact-for-questions)
 
   ## Description
   ${answers.description}
