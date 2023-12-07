@@ -1,5 +1,5 @@
-const inquirer = require('inquirer');
 const fs = require('fs');
+const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
@@ -38,7 +38,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Which license would you like to use?',
-        choices: ['MIT', 'Createive Commons', 'Mozilla', 'Hippocratic']
+        choices: ['MIT', 'Creative Commons', 'Mozilla', 'Hippocratic']
     },
     {
         type: 'input',
@@ -52,27 +52,19 @@ const questions = [
     }
 ]
 
-// inquirer.prompt(questions).then(answers => {
-//     const gen = generateMarkdown(answers);
-//     fs.writeFile('README.md', gen, (err) =>
-//         err ? console.log(err) : console.log("Your README has been written!"));
-// })
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, answers) {
     fs.writeFile(fileName, answers, (err) => {
-        err ? console.log(err) : 
-        console.log("Your README has been written!");
+        err ? console.log(err) :
+            console.log("Your README has been written!");
     })
 }
 
-// TODO: Create a function to initialize app
 function init() {
-        inquirer.prompt(questions).then(answers => 
-        {const ReadMe = generateMarkdown(answers);
+    inquirer.prompt(questions).then(answers => {
+        const ReadMe = generateMarkdown(answers);
         writeToFile("README.md", ReadMe);
     })
 }
 
-// Function call to initialize app
 init();
