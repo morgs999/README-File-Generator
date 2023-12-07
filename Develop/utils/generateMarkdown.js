@@ -51,23 +51,27 @@ function generateMarkdown(answers) {
   # ${answers.title.toUpperCase()}
   
   ### Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing-guidelines)
+  * [Testing](#test-instructions)
+  * [License](#license)
+  * [Contact](#contact)
 
   ## Description
   ${answers.description}
 
   ## Installation
-  [!IMPORTANT]\n
   ${answers.installation}
 
   ## Usage
-  [!TIP]\n
   ${answers.usage}
 
   ## Contribution Guidelines
   ${answers.contribute}
 
   ## Test Instructions
-  [!NOTE]\n
   ${answers.test}
 
   ## License
